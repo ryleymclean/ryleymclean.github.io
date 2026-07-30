@@ -273,3 +273,36 @@ font-size:18px;
 line-height:1.8;
 
 margin-bottom:25px;
+
+}
+
+.logo {
+
+width:250px;
+
+margin-bottom:20px;
+
+filter:drop-shadow(2px 2px 10px black);
+
+}
+
+
+
+footer {
+
+padding:40px;
+
+background:black;
+
+text-align:center;
+
+}
+
+
+footer a {
+
+color:white;
+
+text-decoration:none;
+
+}
