@@ -329,3 +329,21 @@ text-decoration:none;
 text-decoration:underline;
 
 }
+
+.contact a,
+.contact a:visited {
+
+color:white !important;
+
+text-decoration:none;
+
+}
+
+
+.contact a:hover {
+
+color:white !important;
+
+text-decoration:underline;
+
+}
