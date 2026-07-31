@@ -347,3 +347,213 @@ color:white !important;
 text-decoration:underline;
 
 }
+
+/* ==============================
+   PRINTS PAGE ONLY
+   ============================== */
+
+
+.prints-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+
+.prints-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+
+/* Main prints section */
+
+.prints-content {
+    flex: 1;
+    text-align: center;
+}
+
+
+.prints-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+
+.prints-content p {
+    line-height: 1.7;
+}
+
+
+
+/* Print gallery */
+
+.print-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+/* Individual print card */
+
+.print-box {
+    width: 75%;
+    max-width: 650px;
+    text-align: center;
+}
+
+
+
+/* Smaller centered images */
+
+.print-box img {
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+}
+
+
+
+/* Text under images */
+
+.print-info-box {
+    text-align: center;
+}
+
+
+.print-info-box h2 {
+    margin-bottom: 10px;
+}
+
+
+.print-info-box h3 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+
+
+.print-description {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* ==============================
+   STICKY PRINT PRICING SIDEBAR
+   ONLY ON PRINTS PAGE
+   ============================== */
+
+
+.print-pricing {
+
+    width: 260px;
+    padding: 25px;
+
+    position: sticky;
+    top: 30px;
+
+    height: fit-content;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+}
+
+
+
+.print-pricing h2 {
+    margin-bottom: 25px;
+}
+
+
+
+.price-box {
+
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+}
+
+
+
+.price-box h3 {
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.price-box p {
+
+    font-size: 20px;
+    margin: 0;
+
+}
+
+
+
+
+
+/* Mobile layout */
+
+@media (max-width: 900px) {
+
+
+    .prints-layout {
+
+        flex-direction: column;
+
+    }
+
+
+    .print-pricing {
+
+        width: 100%;
+        position: relative;
+
+    }
+
+
+    .print-box {
+
+        width: 100%;
+
+    }
+
+
+    .print-box img {
+
+        width: 90%;
+
+    }
+
+
+}
