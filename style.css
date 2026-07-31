@@ -477,3 +477,11 @@ text-decoration:underline;
     object-fit: contain !important;
 }
 
+.print-pricing a {
+    color: white;
+    text-decoration: none;
+}
+
+.print-pricing a:hover {
+    text-decoration: underline;
+}
