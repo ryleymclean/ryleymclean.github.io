@@ -459,3 +459,21 @@ text-decoration:underline;
     }
 
 }
+
+/* PRINTS SECTION OVERRIDE */
+
+.prints-content {
+    padding: 0;
+    max-width: none;
+    margin: 0;
+}
+
+
+/* PRINT IMAGE SIZE FIX */
+
+.print-box img {
+    width: 350px !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
