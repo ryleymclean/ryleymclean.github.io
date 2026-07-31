@@ -477,3 +477,6 @@ text-decoration:underline;
     object-fit: contain !important;
 }
 
+.prints-page {
+    border: 5px solid red !important;
+}
